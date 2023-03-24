@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card/> Should match snapshot 1`] = `
+.c0 .card-container {
+  width: 200px;
+  height: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="card-container"
+  >
+    <img
+      alt="nome"
+      class="card cover"
+      src="image.img"
+    />
+    <div
+      class="card-title"
+    >
+      <h4
+        class="card-name"
+      >
+        nome
+      </h4>
+      <p
+        class="card-year"
+      >
+        2023
+      </p>
+    </div>
+  </div>
+</div>
+`;
